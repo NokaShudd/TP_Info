@@ -5,7 +5,7 @@
 
 #pragma region Exercices
 
-void exe1(){
+void exo1(){
     int numb1, numb2;
 
     printf("Entre le premier nombre :\n");
@@ -17,7 +17,7 @@ void exe1(){
     printf("Le nombre le plus grand est : %d", numb1 > numb2 ? numb1 : numb2);
 }
 
-void exe2(){
+void exo2(){
     int width, height;
 
     printf("Entre la largeur :\n");
@@ -30,7 +30,7 @@ void exe2(){
 }
 
 
-void exe3(){
+void exo3(){
     const int THREE = 3;
     int value;
 
@@ -41,7 +41,7 @@ void exe3(){
     if (value >= 10) printf("%d est supérieur ou égal à 10", value);
 }
 
-void exe4(){
+void exo4(){
     int age;
     char chara;
     int etudiant = false;
@@ -66,7 +66,7 @@ void exe4(){
 }
 
 
-void exe5(){
+void exo5(){
     int number;
     
     printf("Entrer le numéro :\n");
@@ -106,7 +106,7 @@ float addValue(){
     return value;
 }
 
-void exe6(){
+void exo6(){
     float value1 = addValue();
     float value2 = addValue();
     float value3 = addValue();
@@ -114,7 +114,7 @@ void exe6(){
     printf("La moyenne est %f", (value1 + value2 + value3)/(float)3);
 }
 
-void exe7(){
+void exo7(){
     int classes = 0;
     int students = 0;
     int classeStudents;
@@ -132,7 +132,7 @@ void exe7(){
     printf("Il y a %d élèves.", students);
 }
 
-void exe8(){
+void exo8(){
     int number = 0;
 
     do{
@@ -142,32 +142,31 @@ void exe8(){
     
 }
 
-void exe9(){
-    int floor;
+void exo9(){
+    int floor = 0;
     int blocs;
     int i = 1;
 
     printf("Entrer le nombre de pierres :\n");
     scanf("%d", &blocs);
     
-    while (blocs > 0){
-        i++;
-        if (blocs < i*i) break;
+    while (blocs >= i*i){
         blocs -= i*i;
         floor++;
-        printf("%d - \n", blocs);
+        i++;
     }
     
     printf("Les nombres d'étages est %d", floor);
 }
 
-void exe10(){
+void exo10(){
     float numbers = 0;
     float total = 0; 
     float temp = 0;
     
     printf("Entrer une valeur ( < 0 = stop )\n");
     scanf("%f", &temp);
+
     while(temp >= 0){
         numbers++;
         total += temp;
@@ -183,16 +182,16 @@ void exe10(){
 
 
 int main(){
-    // exe1();  DONE
-    // exe2();  DONE
-    // exe3();  DONE
-    // exe4();  DONE
-    // exe5();  DONE
-    // exe6();  DONE
-    // exe7();  DONE
-    // exe8();  DONE
-    // exe8();  DONE
-    // exe10(); DONE
+    // exo1();  DONE
+    // exo2();  DONE
+    // exo3();  DONE
+    // exo4();  DONE
+    // exo5();  DONE
+    // exo6();  DONE
+    // exo7();  DONE
+    // exo8();  DONE
+    // exo9();  DONE
+    // exo10(); DONE
 
     return 0;
 }
