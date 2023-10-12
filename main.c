@@ -101,18 +101,91 @@ void exe5(){
     }
 }
 
-int addValue(){
-    int value = 0;
+float addValue(){
+    float value = 0.f;
 
-    
+    do{
+        printf("Nouvelle note\n");
+        scanf(" %d", &value);
+    } while (value < 0 || value > 20);
 
     return value;
 }
 
 void exe6(){
 
+    float value1 = addValue();
+    float value2 = addValue();
+    float value3 = addValue();
+
+    printf("La moyenne est %f", (value1 + value2 + value3)/3.f);
+
+}
+
+void exe7(){
+    int classes = 0;
+    int students = 0;
+    int classeStudents;
+
+    printf("Entrer le nombre classe :\n");
+    scanf("%d", &classes);
+
+    for (int _ = 0; _ < classes; _++){
+        classeStudents = 0;
+        printf("Entrer le nombre d'élève dans la classe :\n");
+        scanf(" %d", &classeStudents);
+        students += classeStudents;
+    }
+
+    printf("Il y a %d élèves.", classeStudents);
+
+}
+
+void exe8(){
+    int number = 0;
+    do{
+        printf("Entrer le nombre :\n");
+        scanf("%d", &number);
+    } while (number % 7 != 0 || number % 2 != 0);
+    
+}
+
+void exe9(){
+    int floor;
+    int blocs;
+    int i = 0;
+
+    printf("Entrer le nombre de pierres :\n");
+    scanf("%d", &blocs);
+    
+    while (blocs > 0){
+        i++;
+        if (blocs < i*i) break;
+        blocs -= i*i;
+        floor++;
+    }
+    
+    printf("Les nombres d'étages est %d", floor);
 
 
+}
+
+void exe10(){
+    float numbers = 0;
+    float total = 0; 
+    float temp = 0;
+
+    
+    printf("Entrer une valeur ( < 0 = stop )\n");
+    scanf("%f", &temp);
+    while(temp >= 0){
+        numbers++;
+        total += temp;
+        printf("Entrer une valeur ( < 0 = stop )\n");
+        scanf(" %f", &temp);
+    };
+
+    printf("La moyennes est :%d", total / numbers);
 }
 
 
