@@ -161,53 +161,53 @@ TP4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/build
 .PHONY : TP4/fast
 
-main.obj: main.c.obj
-.PHONY : main.obj
+tp3.obj: tp3.c.obj
+.PHONY : tp3.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/main.c.obj
-.PHONY : main.c.obj
+tp3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/tp3.c.obj
+.PHONY : tp3.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+tp3.i: tp3.c.i
+.PHONY : tp3.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/main.c.i
-.PHONY : main.c.i
+tp3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/tp3.c.i
+.PHONY : tp3.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+tp3.s: tp3.c.s
+.PHONY : tp3.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/main.c.s
-.PHONY : main.c.s
+tp3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/tp3.c.s
+.PHONY : tp3.c.s
 
-main2.obj: main2.c.obj
-.PHONY : main2.obj
+tp4.obj: tp4.c.obj
+.PHONY : tp4.obj
 
 # target to build an object file
-main2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/main2.c.obj
-.PHONY : main2.c.obj
+tp4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4.c.obj
+.PHONY : tp4.c.obj
 
-main2.i: main2.c.i
-.PHONY : main2.i
+tp4.i: tp4.c.i
+.PHONY : tp4.i
 
 # target to preprocess a source file
-main2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/main2.c.i
-.PHONY : main2.c.i
+tp4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4.c.i
+.PHONY : tp4.c.i
 
-main2.s: main2.c.s
-.PHONY : main2.s
+tp4.s: tp4.c.s
+.PHONY : tp4.s
 
 # target to generate assembly for a file
-main2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/main2.c.s
-.PHONY : main2.c.s
+tp4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4.c.s
+.PHONY : tp4.c.s
 
 # Help Target
 help:
@@ -221,12 +221,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... TP3
 	@echo ... TP4
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... main2.obj
-	@echo ... main2.i
-	@echo ... main2.s
+	@echo ... tp3.obj
+	@echo ... tp3.i
+	@echo ... tp3.s
+	@echo ... tp4.obj
+	@echo ... tp4.i
+	@echo ... tp4.s
 .PHONY : help
 
 

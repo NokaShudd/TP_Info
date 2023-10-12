@@ -3,8 +3,7 @@
 #define false 0
 
 
-
-#pragma region Exercices TP3
+#pragma region Exercices
 
 void exe1(){
     int numb1, numb2;
@@ -16,7 +15,6 @@ void exe1(){
     scanf(" %d", &numb2);
 
     printf("Le nombre le plus grand est : %d", numb1 > numb2 ? numb1 : numb2);
-
 }
 
 void exe2(){
@@ -29,7 +27,6 @@ void exe2(){
     scanf(" %d", &height);
 
     printf("L'aire est : %d, et le périmètre : %d", width*height, 2*width+2*height);
-
 }
 
 
@@ -42,7 +39,6 @@ void exe3(){
 
     if (value % THREE == 0) printf("%d est un multiple de %d", value, THREE);
     if (value >= 10) printf("%d est supérieur ou égal à 10", value);
-    
 }
 
 void exe4(){
@@ -67,13 +63,11 @@ void exe4(){
         return;
     }
     printf("9 euro");
-
 }
 
 
 void exe5(){
     int number;
-
     
     printf("Entrer le numéro :\n");
     scanf("%d", &number);
@@ -106,7 +100,7 @@ float addValue(){
 
     do{
         printf("Nouvelle note\n");
-        scanf(" %f", &value);
+        scanf("%f", &value);
     } while (value < 0 || value > 20);
 
     return value;
@@ -118,7 +112,6 @@ void exe6(){
     float value3 = addValue();
 
     printf("La moyenne est %f", (value1 + value2 + value3)/(float)3);
-
 }
 
 void exe7(){
@@ -137,11 +130,11 @@ void exe7(){
     }
 
     printf("Il y a %d élèves.", students);
-
 }
 
 void exe8(){
     int number = 0;
+
     do{
         printf("Entrer le nombre :\n");
         scanf("%d", &number);
@@ -166,15 +159,12 @@ void exe9(){
     }
     
     printf("Les nombres d'étages est %d", floor);
-
-
 }
 
 void exe10(){
     float numbers = 0;
     float total = 0; 
     float temp = 0;
-
     
     printf("Entrer une valeur ( < 0 = stop )\n");
     scanf("%f", &temp);
@@ -185,7 +175,7 @@ void exe10(){
         scanf(" %f", &temp);
     };
 
-    printf("La moyennes est :%f", (total / numbers));
+    printf("La moyenne est :%f", (total / numbers));
 }
 
 
@@ -193,7 +183,16 @@ void exe10(){
 
 
 int main(){
-    exe5();
+    // exe1();  DONE
+    // exe2();  DONE
+    // exe3();  DONE
+    // exe4();  DONE
+    // exe5();  DONE
+    // exe6();  DONE
+    // exe7();  DONE
+    // exe8();  DONE
+    // exe8();  DONE
+    // exe10(); DONE
 
     return 0;
 }

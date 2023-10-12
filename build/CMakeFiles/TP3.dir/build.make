@@ -68,28 +68,28 @@ include CMakeFiles/TP3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TP3.dir/flags.make
 
-CMakeFiles/TP3.dir/main.c.obj: CMakeFiles/TP3.dir/flags.make
-CMakeFiles/TP3.dir/main.c.obj: C:/Users/ntrem/ECE/Info/TP/main.c
-CMakeFiles/TP3.dir/main.c.obj: CMakeFiles/TP3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TP3.dir/main.c.obj"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TP3.dir/main.c.obj -MF CMakeFiles\TP3.dir\main.c.obj.d -o CMakeFiles\TP3.dir\main.c.obj -c C:\Users\ntrem\ECE\Info\TP\main.c
+CMakeFiles/TP3.dir/tp3.c.obj: CMakeFiles/TP3.dir/flags.make
+CMakeFiles/TP3.dir/tp3.c.obj: C:/Users/ntrem/ECE/Info/TP/tp3.c
+CMakeFiles/TP3.dir/tp3.c.obj: CMakeFiles/TP3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TP3.dir/tp3.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TP3.dir/tp3.c.obj -MF CMakeFiles\TP3.dir\tp3.c.obj.d -o CMakeFiles\TP3.dir\tp3.c.obj -c C:\Users\ntrem\ECE\Info\TP\tp3.c
 
-CMakeFiles/TP3.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TP3.dir/main.c.i"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ntrem\ECE\Info\TP\main.c > CMakeFiles\TP3.dir\main.c.i
+CMakeFiles/TP3.dir/tp3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TP3.dir/tp3.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ntrem\ECE\Info\TP\tp3.c > CMakeFiles\TP3.dir\tp3.c.i
 
-CMakeFiles/TP3.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TP3.dir/main.c.s"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ntrem\ECE\Info\TP\main.c -o CMakeFiles\TP3.dir\main.c.s
+CMakeFiles/TP3.dir/tp3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TP3.dir/tp3.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ntrem\ECE\Info\TP\tp3.c -o CMakeFiles\TP3.dir\tp3.c.s
 
 # Object files for target TP3
 TP3_OBJECTS = \
-"CMakeFiles/TP3.dir/main.c.obj"
+"CMakeFiles/TP3.dir/tp3.c.obj"
 
 # External object files for target TP3
 TP3_EXTERNAL_OBJECTS =
 
-TP3.exe: CMakeFiles/TP3.dir/main.c.obj
+TP3.exe: CMakeFiles/TP3.dir/tp3.c.obj
 TP3.exe: CMakeFiles/TP3.dir/build.make
 TP3.exe: CMakeFiles/TP3.dir/linkLibs.rsp
 TP3.exe: CMakeFiles/TP3.dir/objects1.rsp

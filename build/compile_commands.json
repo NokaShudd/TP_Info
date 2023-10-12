@@ -1,14 +1,14 @@
 [
 {
   "directory": "C:/Users/ntrem/ECE/Info/TP/build",
-  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TP3.dir\\main.c.obj -c C:\\Users\\ntrem\\ECE\\Info\\TP\\main.c",
-  "file": "C:/Users/ntrem/ECE/Info/TP/main.c",
-  "output": "CMakeFiles/TP3.dir/main.c.obj"
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TP3.dir\\tp3.c.obj -c C:\\Users\\ntrem\\ECE\\Info\\TP\\tp3.c",
+  "file": "C:/Users/ntrem/ECE/Info/TP/tp3.c",
+  "output": "CMakeFiles/TP3.dir/tp3.c.obj"
 },
 {
   "directory": "C:/Users/ntrem/ECE/Info/TP/build",
-  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TP4.dir\\main2.c.obj -c C:\\Users\\ntrem\\ECE\\Info\\TP\\main2.c",
-  "file": "C:/Users/ntrem/ECE/Info/TP/main2.c",
-  "output": "CMakeFiles/TP4.dir/main2.c.obj"
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TP4.dir\\tp4.c.obj -c C:\\Users\\ntrem\\ECE\\Info\\TP\\tp4.c",
+  "file": "C:/Users/ntrem/ECE/Info/TP/tp4.c",
+  "output": "CMakeFiles/TP4.dir/tp4.c.obj"
 }
 ]
