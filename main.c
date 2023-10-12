@@ -106,19 +106,18 @@ float addValue(){
 
     do{
         printf("Nouvelle note\n");
-        scanf(" %d", &value);
+        scanf(" %f", &value);
     } while (value < 0 || value > 20);
 
     return value;
 }
 
 void exe6(){
-
     float value1 = addValue();
     float value2 = addValue();
     float value3 = addValue();
 
-    printf("La moyenne est %f", (value1 + value2 + value3)/3.f);
+    printf("La moyenne est %f", (value1 + value2 + value3)/(float)3);
 
 }
 
@@ -137,7 +136,7 @@ void exe7(){
         students += classeStudents;
     }
 
-    printf("Il y a %d élèves.", classeStudents);
+    printf("Il y a %d élèves.", students);
 
 }
 
@@ -153,7 +152,7 @@ void exe8(){
 void exe9(){
     int floor;
     int blocs;
-    int i = 0;
+    int i = 1;
 
     printf("Entrer le nombre de pierres :\n");
     scanf("%d", &blocs);
@@ -163,6 +162,7 @@ void exe9(){
         if (blocs < i*i) break;
         blocs -= i*i;
         floor++;
+        printf("%d - \n", blocs);
     }
     
     printf("Les nombres d'étages est %d", floor);
@@ -185,7 +185,7 @@ void exe10(){
         scanf(" %f", &temp);
     };
 
-    printf("La moyennes est :%d", total / numbers);
+    printf("La moyennes est :%f", (total / numbers));
 }
 
 
@@ -193,7 +193,7 @@ void exe10(){
 
 
 int main(){
-    exe4();
+    exe5();
 
     return 0;
 }
