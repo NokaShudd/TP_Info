@@ -12,6 +12,9 @@
 *.map
 *.exp
 
+# VsCode Scpecific
+.vscode/
+
 # Precompiled Headers
 *.gch
 *.pch
