@@ -136,24 +136,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TP
+# Target rules for targets named TP3
 
 # Build rule for target.
-TP: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TP
-.PHONY : TP
+TP3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TP3
+.PHONY : TP3
 
 # fast build rule for target.
-TP/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP.dir\build.make CMakeFiles/TP.dir/build
-.PHONY : TP/fast
+TP3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/build
+.PHONY : TP3/fast
+
+#=============================================================================
+# Target rules for targets named TP4
+
+# Build rule for target.
+TP4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TP4
+.PHONY : TP4
+
+# fast build rule for target.
+TP4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/build
+.PHONY : TP4/fast
 
 main.obj: main.c.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP.dir\build.make CMakeFiles/TP.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -161,7 +174,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP.dir\build.make CMakeFiles/TP.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -169,8 +182,32 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP.dir\build.make CMakeFiles/TP.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/main.c.s
 .PHONY : main.c.s
+
+main2.obj: main2.c.obj
+.PHONY : main2.obj
+
+# target to build an object file
+main2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/main2.c.obj
+.PHONY : main2.c.obj
+
+main2.i: main2.c.i
+.PHONY : main2.i
+
+# target to preprocess a source file
+main2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/main2.c.i
+.PHONY : main2.c.i
+
+main2.s: main2.c.s
+.PHONY : main2.s
+
+# target to generate assembly for a file
+main2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/main2.c.s
+.PHONY : main2.c.s
 
 # Help Target
 help:
@@ -182,10 +219,14 @@ help:
 	@echo ... package
 	@echo ... package_source
 	@echo ... rebuild_cache
-	@echo ... TP
+	@echo ... TP3
+	@echo ... TP4
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... main2.obj
+	@echo ... main2.i
+	@echo ... main2.s
 .PHONY : help
 
 
