@@ -6,7 +6,7 @@ int getMax(int valueA, int valueB){
     return valueA > valueB ? valueA : valueB;
 }
 
-int exo1(){
+void exo1(){
     int numb1, numb2;
 
     printf("Entre le premier nombre :\n");
@@ -32,7 +32,7 @@ int saisirEntier(){
 int calculAire  (int largeur, int longueur) { return largeur * longueur; }
 int calculPerim (int largeur, int longueur) { return 2*largeur+2*longueur; }
 
-int exo2(){
+void exo2(){
     int largeur = saisirEntier();
     int longueur = saisirEntier();
 
@@ -46,7 +46,7 @@ int exo2(){
 
 int estMultiple (int valueA, int valueB) { return ((valueA % valueB) == 0); }
 
-int exo3(){
+void exo3(){
     int entier = saisirEntier();
 
     printf(

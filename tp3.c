@@ -1,9 +1,12 @@
 #include <stdio.h>
-#define true 1
-#define false 0
+#define true    1
+#define false   0
 
 
 #pragma region Exercices
+
+
+/*======================== EXO 1 ========================*/
 
 void exo1(){
     int numb1, numb2;
@@ -17,6 +20,8 @@ void exo1(){
     printf("Le nombre le plus grand est : %d", numb1 > numb2 ? numb1 : numb2);
 }
 
+/*======================== EXO 2 ========================*/
+
 void exo2(){
     int width, height;
 
@@ -29,6 +34,7 @@ void exo2(){
     printf("L'aire est : %d, et le périmètre : %d", width*height, 2*width+2*height);
 }
 
+/*======================== EXO 3 ========================*/
 
 void exo3(){
     const int THREE = 3;
@@ -40,6 +46,8 @@ void exo3(){
     if (value % THREE == 0) printf("%d est un multiple de %d", value, THREE);
     if (value >= 10) printf("%d est supérieur ou égal à 10", value);
 }
+
+/*======================== EXO 4 ========================*/
 
 void exo4(){
     int age;
@@ -65,6 +73,7 @@ void exo4(){
     printf("9 euro");
 }
 
+/*======================== EXO 5 ========================*/
 
 void exo5(){
     int number;
@@ -73,29 +82,31 @@ void exo5(){
     scanf("%d", &number);
 
     switch (number){
-    case 1:
-        printf("Boisson froide 1");
-        break;
-    case 2:
-        printf("Boisson froide 2");
-        break;
-    case 3:
-        printf("Boisson froide 3");
-        break;
-    case 10:
-        printf("Boisson chaude 1");
-        break;
-    case 11:
-        printf("Boisson chaude 2");
-        break;
-    
-    default:
-        printf("Ce numéro n'est pas attribué");
-        break;
+        case 1:
+            printf("Boisson froide 1");
+            break;
+        case 2:
+            printf("Boisson froide 2");
+            break;
+        case 3:
+            printf("Boisson froide 3");
+            break;
+        case 10:
+            printf("Boisson chaude 1");
+            break;
+        case 11:
+            printf("Boisson chaude 2");
+            break;
+        
+        default:
+            printf("Ce numéro n'est pas attribué");
+            break;
     }
 }
 
-float addValue(){
+/*======================== EXO 6 ========================*/
+
+float getValue(){
     float value = 0.f;
 
     do{
@@ -107,12 +118,14 @@ float addValue(){
 }
 
 void exo6(){
-    float value1 = addValue();
-    float value2 = addValue();
-    float value3 = addValue();
+    float value1 = getValue();
+    float value2 = getValue();
+    float value3 = getValue();
 
     printf("La moyenne est %f", (value1 + value2 + value3)/(float)3);
 }
+
+/*======================== EXO 7 ========================*/
 
 void exo7(){
     int classes = 0;
@@ -122,7 +135,7 @@ void exo7(){
     printf("Entrer le nombre classe :\n");
     scanf("%d", &classes);
 
-    for (int _ = 0; _ < classes; _++){
+    for (int _ = 0; _++ < classes; ){
         classeStudents = 0;
         printf("Entrer le nombre d'élève dans la classe :\n");
         scanf(" %d", &classeStudents);
@@ -132,6 +145,8 @@ void exo7(){
     printf("Il y a %d élèves.", students);
 }
 
+/*======================== EXO 8 ========================*/
+
 void exo8(){
     int number = 0;
 
@@ -139,8 +154,9 @@ void exo8(){
         printf("Entrer le nombre :\n");
         scanf("%d", &number);
     } while (number % 7 != 0 || number % 2 != 0);
-    
 }
+
+/*======================== EXO 9 ========================*/
 
 void exo9(){
     int floor = 0;
@@ -158,6 +174,8 @@ void exo9(){
     
     printf("Les nombres d'étages est %d", floor);
 }
+
+/*======================= EXO 10 =======================*/
 
 void exo10(){
     float numbers = 0;

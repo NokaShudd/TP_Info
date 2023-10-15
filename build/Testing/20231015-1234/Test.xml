@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="Win32-mingw32-make"
-	BuildStamp="20231012-0635-Experimental"
+	BuildStamp="20231015-1234-Experimental"
 	Name="LAPTOP-8TE8D5FR"
 	Generator="ctest-3.27.1"
 	CompilerName="C:/mingw64/bin/g++.exe"
@@ -18,17 +18,17 @@
 	ProcessorCacheSize="0"
 	NumberOfLogicalCPU="4"
 	NumberOfPhysicalCPU="2"
-	TotalVirtualMemory="10243"
+	TotalVirtualMemory="10693"
 	TotalPhysicalMemory="8067"
 	LogicalProcessorsPerPhysical="2"
 	ProcessorClockFrequency="2496"
 	>
 	<Testing>
-		<StartDateTime>Oct 12 15:33 Paris, Madrid (heure d[NON-UTF-8-BYTE-0x92][NON-UTF-8-BYTE-0xE9]t[NON-UTF-8-BYTE-0xE9])</StartDateTime>
-		<StartTestTime>1697117610</StartTestTime>
+		<StartDateTime>Oct 15 14:34 Paris, Madrid (heure d[NON-UTF-8-BYTE-0x92][NON-UTF-8-BYTE-0xE9]t[NON-UTF-8-BYTE-0xE9])</StartDateTime>
+		<StartTestTime>1697373248</StartTestTime>
 		<TestList/>
-		<EndDateTime>Oct 12 15:33 Paris, Madrid (heure d[NON-UTF-8-BYTE-0x92][NON-UTF-8-BYTE-0xE9]t[NON-UTF-8-BYTE-0xE9])</EndDateTime>
-		<EndTestTime>1697117610</EndTestTime>
+		<EndDateTime>Oct 15 14:34 Paris, Madrid (heure d[NON-UTF-8-BYTE-0x92][NON-UTF-8-BYTE-0xE9]t[NON-UTF-8-BYTE-0xE9])</EndDateTime>
+		<EndTestTime>1697373248</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
