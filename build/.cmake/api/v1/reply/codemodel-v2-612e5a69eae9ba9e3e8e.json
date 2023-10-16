@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "TP4::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-TP4-Debug-6d4986a16a4dd21bfc70.json",
 					"name" : "TP4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TP5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TP5-Debug-5cc720a2483025dcc016.json",
+					"name" : "TP5",
 					"projectIndex" : 0
 				}
 			]

@@ -161,6 +161,19 @@ TP4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/build
 .PHONY : TP4/fast
 
+#=============================================================================
+# Target rules for targets named TP5
+
+# Build rule for target.
+TP5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TP5
+.PHONY : TP5
+
+# fast build rule for target.
+TP5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5.dir\build.make CMakeFiles/TP5.dir/build
+.PHONY : TP5/fast
+
 tp3.obj: tp3.c.obj
 .PHONY : tp3.obj
 
@@ -209,6 +222,30 @@ tp4.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4.c.s
 .PHONY : tp4.c.s
 
+tp5.obj: tp5.c.obj
+.PHONY : tp5.obj
+
+# target to build an object file
+tp5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5.dir\build.make CMakeFiles/TP5.dir/tp5.c.obj
+.PHONY : tp5.c.obj
+
+tp5.i: tp5.c.i
+.PHONY : tp5.i
+
+# target to preprocess a source file
+tp5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5.dir\build.make CMakeFiles/TP5.dir/tp5.c.i
+.PHONY : tp5.c.i
+
+tp5.s: tp5.c.s
+.PHONY : tp5.s
+
+# target to generate assembly for a file
+tp5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5.dir\build.make CMakeFiles/TP5.dir/tp5.c.s
+.PHONY : tp5.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -221,12 +258,16 @@ help:
 	@echo ... rebuild_cache
 	@echo ... TP3
 	@echo ... TP4
+	@echo ... TP5
 	@echo ... tp3.obj
 	@echo ... tp3.i
 	@echo ... tp3.s
 	@echo ... tp4.obj
 	@echo ... tp4.i
 	@echo ... tp4.s
+	@echo ... tp5.obj
+	@echo ... tp5.i
+	@echo ... tp5.s
 .PHONY : help
 
 
