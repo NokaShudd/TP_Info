@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = C:\Users\ntrem\ECE\Info\TP\build
 all: CMakeFiles/TP3.dir/all
 all: CMakeFiles/TP4.dir/all
 all: CMakeFiles/TP5.dir/all
+all: CMakeFiles/TP6.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -75,6 +76,7 @@ preinstall:
 clean: CMakeFiles/TP3.dir/clean
 clean: CMakeFiles/TP4.dir/clean
 clean: CMakeFiles/TP5.dir/clean
+clean: CMakeFiles/TP6.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -154,6 +156,32 @@ TP5: CMakeFiles/TP5.dir/rule
 CMakeFiles/TP5.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5.dir\build.make CMakeFiles/TP5.dir/clean
 .PHONY : CMakeFiles/TP5.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/TP6.dir
+
+# All Build rule for target.
+CMakeFiles/TP6.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP6.dir\build.make CMakeFiles/TP6.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP6.dir\build.make CMakeFiles/TP6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=7,8 "Built target TP6"
+.PHONY : CMakeFiles/TP6.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/TP6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TP6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles 0
+.PHONY : CMakeFiles/TP6.dir/rule
+
+# Convenience name for target.
+TP6: CMakeFiles/TP6.dir/rule
+.PHONY : TP6
+
+# clean rule for target.
+CMakeFiles/TP6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP6.dir\build.make CMakeFiles/TP6.dir/clean
+.PHONY : CMakeFiles/TP6.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
