@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -77,6 +79,13 @@
 					"id" : "TP7::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-TP7-Debug-67931fa17a2b6a4d3cac.json",
 					"name" : "TP7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TP8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TP8-Debug-13b7c4b41e2b3da7fb80.json",
+					"name" : "TP8",
 					"projectIndex" : 0
 				}
 			]
