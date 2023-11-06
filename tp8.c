@@ -70,24 +70,23 @@ void betterExo2(){
     printf("Moyenne est %f",(float)moy/size);
 }
 
-/*======================== EXO 2 ========================*/
+/*======================== EXO 3 ========================*/
 
 int getRandomInteger(){
     return rand() % 255; 
 }
 
-void showRow(int *row, int size){
+void showRow(int* row, int size, int index){
     for (int i = 0; i < size; i++){
-        printf(" %d ", row[i]);
-    }
-    
+        printf("%d-%d : %d \n",index, i, row[i]);
+    }    
 }
 
 void show(int** table, int width, int height){    
 
     for (int i = 0; i < height; i++){
         printf("-------------------------------------------\n");
-        showRow(table[i], width);
+        showRow(table[i], width, i);
         printf("\n");
     }
 }
@@ -95,14 +94,11 @@ void show(int** table, int width, int height){
 int* flatTable(int** table, int width, int height){
     int* table1d = (int*) malloc(height*width * sizeof(int));
 
-
     for (int i = 0; i < height; i++){
         for (int j = 0; j < width; j++){
             table1d[i*width + j] = table[i][j];
         }
     }
-
-    
 
     return table1d;
 }
@@ -128,12 +124,10 @@ void exo3(){
     printf("Entre la hauteur et la profondeur du tableau :\n");
     scanf("%d %d", &height, &width);
 
-    printf("w: %d, h: %d\n", height, width);
-
-    int** table = (int**) malloc(height * sizeof(int));
+    int** table = (int**) calloc(height, sizeof(int*));
 
     for (int i = 0; i < height; i++) {
-        table[i] = (int*) malloc(width * sizeof(int));
+        table[i] = (int*) calloc(width, sizeof(int));
         for (int j = 0; j < width; j++){
             table[i][j] = getRandomInteger(); 
             printf("%d-%d : %d\n", i, j, table[i][j]);
@@ -146,7 +140,54 @@ void exo3(){
 
     bubbleSort(tableSorted, width*height);
 
-    showRow(tableSorted, width*height);
+    showRow(tableSorted, width*height, 0);
+
+    for (int i = 0; i < height; i++){
+        free(table[i]);
+    }
+    free(table);
+
+}
+
+/*======================== EXO 4 ========================*/
+
+char* readWord(){
+    char* word = (char*) calloc(50, sizeof(char));
+    printf("Entre le mot: ");
+    scanf(" %[^\n]", word);
+
+    return word;
+}
+
+void read10Words(char** tableWords){
+
+    for (int i = 0; i < 10; i++){
+        tableWords[i] = (char*) calloc(50, sizeof(char));
+        tableWords[i] = readWord();        
+        int realSize = 0;
+        for (char l = 0; l < 50; l++){
+            if (l == '\n') break;
+            realSize++;
+        }
+        tableWords[i] = realloc(tableWords[i], realSize * sizeof(char));
+
+    }
+}
+
+void showWord(char** tableWords){
+    for (int i = 0; i < 10; i++){
+        printf(tableWords[i]);
+        printf("\n");
+    }
+    
+}
+
+void exo4(){
+    char** tableWords = (char**) calloc(10, sizeof(char*));
+    read10Words(tableWords);
+
+    showWord(tableWords);
+
 
 }
 
@@ -155,6 +196,7 @@ int main(){
     // exo1();         // DONE
     // exo2()          // DONE
     // betterExo2();   // DONE
-    exo3();
+    // exo3();         // DONE on peut faire un meilleur trieur quand meme
+    // exo4();         // DONE
     return 0;
 }
