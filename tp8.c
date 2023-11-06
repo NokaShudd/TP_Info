@@ -83,15 +83,43 @@ void showRow(int *row, int size){
     
 }
 
-void show(int** table){
-    int height = sizeof(table[0]) / sizeof(table[0][0]);
-    int width = sizeof(table) / height;
-    printf("height : %d; width: %d\n", height, width);
+void show(int** table, int width, int height){    
+
     for (int i = 0; i < height; i++){
-        printf("-------------------------\n");
+        printf("-------------------------------------------\n");
         showRow(table[i], width);
         printf("\n");
     }
+}
+
+int* flatTable(int** table, int width, int height){
+    int* table1d = (int*) malloc(height*width * sizeof(int));
+
+
+    for (int i = 0; i < height; i++){
+        for (int j = 0; j < width; j++){
+            table1d[i*width + j] = table[i][j];
+        }
+    }
+
+    
+
+    return table1d;
+}
+
+
+void bubbleSort(int* table, int length){
+    for (int i = 0; i < length; i++){
+        for (int j = i+1; j < length; j++){
+            if (table[i] > table[j]) {
+                table[i] += table[j];
+                table[j] = table[i] - table[j];
+                table[i] -= table[j];
+            }
+        }
+        
+    }
+
     
 }
 
@@ -100,17 +128,25 @@ void exo3(){
     printf("Entre la hauteur et la profondeur du tableau :\n");
     scanf("%d %d", &height, &width);
 
+    printf("w: %d, h: %d\n", height, width);
+
     int** table = (int**) malloc(height * sizeof(int));
 
     for (int i = 0; i < height; i++) {
         table[i] = (int*) malloc(width * sizeof(int));
         for (int j = 0; j < width; j++){
             table[i][j] = getRandomInteger(); 
+            printf("%d-%d : %d\n", i, j, table[i][j]);
         }
     }
 
-    show(table);
+    show(table, width, height);
 
+    int* tableSorted = flatTable(table, width, height);
+
+    bubbleSort(tableSorted, width*height);
+
+    showRow(tableSorted, width*height);
 
 }
 
