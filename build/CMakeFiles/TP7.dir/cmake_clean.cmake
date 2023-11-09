@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TP7.dir/tp7.c.obj"
-  "CMakeFiles/TP7.dir/tp7.c.obj.d"
+  "CMakeFiles/TP7.dir/tp7/tp7.c.obj"
+  "CMakeFiles/TP7.dir/tp7/tp7.c.obj.d"
+  "CMakeFiles/TP7.dir/tp7/tp7_exo.c.obj"
+  "CMakeFiles/TP7.dir/tp7/tp7_exo.c.obj.d"
   "TP7.exe"
   "TP7.exe.manifest"
   "TP7.pdb"

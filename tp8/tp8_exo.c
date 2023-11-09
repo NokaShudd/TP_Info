@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#include "tp8_exo.h"
 
 /*======================== EXO 1 ========================*/
 
@@ -189,14 +189,4 @@ void exo4(){
     showWord(tableWords);
 
 
-}
-
-int main(){
-    srand(time(NULL));
-    // exo1();         // DONE
-    // exo2()          // DONE
-    // betterExo2();   // DONE
-    // exo3();         // DONE on peut faire un meilleur trieur quand meme
-    // exo4();         // DONE
-    return 0;
 }

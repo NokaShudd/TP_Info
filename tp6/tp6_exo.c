@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-# pragma region Exercices
+#include "tp6_exo.h"
 
 /*======================== EXO 1 ========================*/
 
@@ -119,15 +118,4 @@ void exo5(){
 
     showPoint(pointA);
     showPoint(pointB);
-}
-
-# pragma endregion
-
-int main(){
-    // exo1();         // DONE
-    // exo2();         // DONE
-    // exo3();         // DONE
-    // exo4();         // DONE
-    // exo5();         // DONE
-    return 0;
 }

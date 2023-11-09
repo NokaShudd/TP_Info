@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "tp7_exo.h"
 
 /*======================== EXO 1 ========================*/
 
@@ -69,14 +70,4 @@ void exo3(){
     }
 
     printf("Le nombre etait bien %d !", goal);
-}
-
-
-
-int main(){
-    srand(time(NULL));
-    // exo1();     // DONE
-    // exo2();     // DONE
-    // exo3();     // DONE
-    return 0;
 }

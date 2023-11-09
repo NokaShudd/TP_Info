@@ -226,197 +226,317 @@ TP9/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP9.dir\build.make CMakeFiles/TP9.dir/build
 .PHONY : TP9/fast
 
-tp3.obj: tp3.c.obj
-.PHONY : tp3.obj
+tp3/tp3.obj: tp3/tp3.c.obj
+.PHONY : tp3/tp3.obj
 
 # target to build an object file
-tp3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/tp3.c.obj
-.PHONY : tp3.c.obj
+tp3/tp3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/tp3/tp3.c.obj
+.PHONY : tp3/tp3.c.obj
 
-tp3.i: tp3.c.i
-.PHONY : tp3.i
+tp3/tp3.i: tp3/tp3.c.i
+.PHONY : tp3/tp3.i
 
 # target to preprocess a source file
-tp3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/tp3.c.i
-.PHONY : tp3.c.i
+tp3/tp3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/tp3/tp3.c.i
+.PHONY : tp3/tp3.c.i
 
-tp3.s: tp3.c.s
-.PHONY : tp3.s
+tp3/tp3.s: tp3/tp3.c.s
+.PHONY : tp3/tp3.s
 
 # target to generate assembly for a file
-tp3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/tp3.c.s
-.PHONY : tp3.c.s
+tp3/tp3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/tp3/tp3.c.s
+.PHONY : tp3/tp3.c.s
 
-tp4.obj: tp4.c.obj
-.PHONY : tp4.obj
+tp4/tp4.obj: tp4/tp4.c.obj
+.PHONY : tp4/tp4.obj
 
 # target to build an object file
-tp4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4.c.obj
-.PHONY : tp4.c.obj
+tp4/tp4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4/tp4.c.obj
+.PHONY : tp4/tp4.c.obj
 
-tp4.i: tp4.c.i
-.PHONY : tp4.i
+tp4/tp4.i: tp4/tp4.c.i
+.PHONY : tp4/tp4.i
 
 # target to preprocess a source file
-tp4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4.c.i
-.PHONY : tp4.c.i
+tp4/tp4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4/tp4.c.i
+.PHONY : tp4/tp4.c.i
 
-tp4.s: tp4.c.s
-.PHONY : tp4.s
+tp4/tp4.s: tp4/tp4.c.s
+.PHONY : tp4/tp4.s
 
 # target to generate assembly for a file
-tp4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4.c.s
-.PHONY : tp4.c.s
+tp4/tp4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4/tp4.c.s
+.PHONY : tp4/tp4.c.s
 
-tp4_exo.obj: tp4_exo.c.obj
-.PHONY : tp4_exo.obj
+tp4/tp4_exo.obj: tp4/tp4_exo.c.obj
+.PHONY : tp4/tp4_exo.obj
 
 # target to build an object file
-tp4_exo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4_exo.c.obj
-.PHONY : tp4_exo.c.obj
+tp4/tp4_exo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4/tp4_exo.c.obj
+.PHONY : tp4/tp4_exo.c.obj
 
-tp4_exo.i: tp4_exo.c.i
-.PHONY : tp4_exo.i
+tp4/tp4_exo.i: tp4/tp4_exo.c.i
+.PHONY : tp4/tp4_exo.i
 
 # target to preprocess a source file
-tp4_exo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4_exo.c.i
-.PHONY : tp4_exo.c.i
+tp4/tp4_exo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4/tp4_exo.c.i
+.PHONY : tp4/tp4_exo.c.i
 
-tp4_exo.s: tp4_exo.c.s
-.PHONY : tp4_exo.s
+tp4/tp4_exo.s: tp4/tp4_exo.c.s
+.PHONY : tp4/tp4_exo.s
 
 # target to generate assembly for a file
-tp4_exo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4_exo.c.s
-.PHONY : tp4_exo.c.s
+tp4/tp4_exo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4/tp4_exo.c.s
+.PHONY : tp4/tp4_exo.c.s
 
-tp5.obj: tp5.c.obj
-.PHONY : tp5.obj
+tp5/tp5.obj: tp5/tp5.c.obj
+.PHONY : tp5/tp5.obj
 
 # target to build an object file
-tp5.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5.dir\build.make CMakeFiles/TP5.dir/tp5.c.obj
-.PHONY : tp5.c.obj
+tp5/tp5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5.dir\build.make CMakeFiles/TP5.dir/tp5/tp5.c.obj
+.PHONY : tp5/tp5.c.obj
 
-tp5.i: tp5.c.i
-.PHONY : tp5.i
+tp5/tp5.i: tp5/tp5.c.i
+.PHONY : tp5/tp5.i
 
 # target to preprocess a source file
-tp5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5.dir\build.make CMakeFiles/TP5.dir/tp5.c.i
-.PHONY : tp5.c.i
+tp5/tp5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5.dir\build.make CMakeFiles/TP5.dir/tp5/tp5.c.i
+.PHONY : tp5/tp5.c.i
 
-tp5.s: tp5.c.s
-.PHONY : tp5.s
+tp5/tp5.s: tp5/tp5.c.s
+.PHONY : tp5/tp5.s
 
 # target to generate assembly for a file
-tp5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5.dir\build.make CMakeFiles/TP5.dir/tp5.c.s
-.PHONY : tp5.c.s
+tp5/tp5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5.dir\build.make CMakeFiles/TP5.dir/tp5/tp5.c.s
+.PHONY : tp5/tp5.c.s
 
-tp6.obj: tp6.c.obj
-.PHONY : tp6.obj
+tp5/tp5_exo.obj: tp5/tp5_exo.c.obj
+.PHONY : tp5/tp5_exo.obj
 
 # target to build an object file
-tp6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP6.dir\build.make CMakeFiles/TP6.dir/tp6.c.obj
-.PHONY : tp6.c.obj
+tp5/tp5_exo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5.dir\build.make CMakeFiles/TP5.dir/tp5/tp5_exo.c.obj
+.PHONY : tp5/tp5_exo.c.obj
 
-tp6.i: tp6.c.i
-.PHONY : tp6.i
+tp5/tp5_exo.i: tp5/tp5_exo.c.i
+.PHONY : tp5/tp5_exo.i
 
 # target to preprocess a source file
-tp6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP6.dir\build.make CMakeFiles/TP6.dir/tp6.c.i
-.PHONY : tp6.c.i
+tp5/tp5_exo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5.dir\build.make CMakeFiles/TP5.dir/tp5/tp5_exo.c.i
+.PHONY : tp5/tp5_exo.c.i
 
-tp6.s: tp6.c.s
-.PHONY : tp6.s
+tp5/tp5_exo.s: tp5/tp5_exo.c.s
+.PHONY : tp5/tp5_exo.s
 
 # target to generate assembly for a file
-tp6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP6.dir\build.make CMakeFiles/TP6.dir/tp6.c.s
-.PHONY : tp6.c.s
+tp5/tp5_exo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5.dir\build.make CMakeFiles/TP5.dir/tp5/tp5_exo.c.s
+.PHONY : tp5/tp5_exo.c.s
 
-tp7.obj: tp7.c.obj
-.PHONY : tp7.obj
+tp6/tp6.obj: tp6/tp6.c.obj
+.PHONY : tp6/tp6.obj
 
 # target to build an object file
-tp7.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP7.dir\build.make CMakeFiles/TP7.dir/tp7.c.obj
-.PHONY : tp7.c.obj
+tp6/tp6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP6.dir\build.make CMakeFiles/TP6.dir/tp6/tp6.c.obj
+.PHONY : tp6/tp6.c.obj
 
-tp7.i: tp7.c.i
-.PHONY : tp7.i
+tp6/tp6.i: tp6/tp6.c.i
+.PHONY : tp6/tp6.i
 
 # target to preprocess a source file
-tp7.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP7.dir\build.make CMakeFiles/TP7.dir/tp7.c.i
-.PHONY : tp7.c.i
+tp6/tp6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP6.dir\build.make CMakeFiles/TP6.dir/tp6/tp6.c.i
+.PHONY : tp6/tp6.c.i
 
-tp7.s: tp7.c.s
-.PHONY : tp7.s
+tp6/tp6.s: tp6/tp6.c.s
+.PHONY : tp6/tp6.s
 
 # target to generate assembly for a file
-tp7.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP7.dir\build.make CMakeFiles/TP7.dir/tp7.c.s
-.PHONY : tp7.c.s
+tp6/tp6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP6.dir\build.make CMakeFiles/TP6.dir/tp6/tp6.c.s
+.PHONY : tp6/tp6.c.s
 
-tp8.obj: tp8.c.obj
-.PHONY : tp8.obj
+tp6/tp6_exo.obj: tp6/tp6_exo.c.obj
+.PHONY : tp6/tp6_exo.obj
 
 # target to build an object file
-tp8.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP8.dir\build.make CMakeFiles/TP8.dir/tp8.c.obj
-.PHONY : tp8.c.obj
+tp6/tp6_exo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP6.dir\build.make CMakeFiles/TP6.dir/tp6/tp6_exo.c.obj
+.PHONY : tp6/tp6_exo.c.obj
 
-tp8.i: tp8.c.i
-.PHONY : tp8.i
+tp6/tp6_exo.i: tp6/tp6_exo.c.i
+.PHONY : tp6/tp6_exo.i
 
 # target to preprocess a source file
-tp8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP8.dir\build.make CMakeFiles/TP8.dir/tp8.c.i
-.PHONY : tp8.c.i
+tp6/tp6_exo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP6.dir\build.make CMakeFiles/TP6.dir/tp6/tp6_exo.c.i
+.PHONY : tp6/tp6_exo.c.i
 
-tp8.s: tp8.c.s
-.PHONY : tp8.s
+tp6/tp6_exo.s: tp6/tp6_exo.c.s
+.PHONY : tp6/tp6_exo.s
 
 # target to generate assembly for a file
-tp8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP8.dir\build.make CMakeFiles/TP8.dir/tp8.c.s
-.PHONY : tp8.c.s
+tp6/tp6_exo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP6.dir\build.make CMakeFiles/TP6.dir/tp6/tp6_exo.c.s
+.PHONY : tp6/tp6_exo.c.s
 
-tp9.obj: tp9.c.obj
-.PHONY : tp9.obj
+tp7/tp7.obj: tp7/tp7.c.obj
+.PHONY : tp7/tp7.obj
 
 # target to build an object file
-tp9.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP9.dir\build.make CMakeFiles/TP9.dir/tp9.c.obj
-.PHONY : tp9.c.obj
+tp7/tp7.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP7.dir\build.make CMakeFiles/TP7.dir/tp7/tp7.c.obj
+.PHONY : tp7/tp7.c.obj
 
-tp9.i: tp9.c.i
-.PHONY : tp9.i
+tp7/tp7.i: tp7/tp7.c.i
+.PHONY : tp7/tp7.i
 
 # target to preprocess a source file
-tp9.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP9.dir\build.make CMakeFiles/TP9.dir/tp9.c.i
-.PHONY : tp9.c.i
+tp7/tp7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP7.dir\build.make CMakeFiles/TP7.dir/tp7/tp7.c.i
+.PHONY : tp7/tp7.c.i
 
-tp9.s: tp9.c.s
-.PHONY : tp9.s
+tp7/tp7.s: tp7/tp7.c.s
+.PHONY : tp7/tp7.s
 
 # target to generate assembly for a file
-tp9.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP9.dir\build.make CMakeFiles/TP9.dir/tp9.c.s
-.PHONY : tp9.c.s
+tp7/tp7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP7.dir\build.make CMakeFiles/TP7.dir/tp7/tp7.c.s
+.PHONY : tp7/tp7.c.s
+
+tp7/tp7_exo.obj: tp7/tp7_exo.c.obj
+.PHONY : tp7/tp7_exo.obj
+
+# target to build an object file
+tp7/tp7_exo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP7.dir\build.make CMakeFiles/TP7.dir/tp7/tp7_exo.c.obj
+.PHONY : tp7/tp7_exo.c.obj
+
+tp7/tp7_exo.i: tp7/tp7_exo.c.i
+.PHONY : tp7/tp7_exo.i
+
+# target to preprocess a source file
+tp7/tp7_exo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP7.dir\build.make CMakeFiles/TP7.dir/tp7/tp7_exo.c.i
+.PHONY : tp7/tp7_exo.c.i
+
+tp7/tp7_exo.s: tp7/tp7_exo.c.s
+.PHONY : tp7/tp7_exo.s
+
+# target to generate assembly for a file
+tp7/tp7_exo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP7.dir\build.make CMakeFiles/TP7.dir/tp7/tp7_exo.c.s
+.PHONY : tp7/tp7_exo.c.s
+
+tp8/tp8.obj: tp8/tp8.c.obj
+.PHONY : tp8/tp8.obj
+
+# target to build an object file
+tp8/tp8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP8.dir\build.make CMakeFiles/TP8.dir/tp8/tp8.c.obj
+.PHONY : tp8/tp8.c.obj
+
+tp8/tp8.i: tp8/tp8.c.i
+.PHONY : tp8/tp8.i
+
+# target to preprocess a source file
+tp8/tp8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP8.dir\build.make CMakeFiles/TP8.dir/tp8/tp8.c.i
+.PHONY : tp8/tp8.c.i
+
+tp8/tp8.s: tp8/tp8.c.s
+.PHONY : tp8/tp8.s
+
+# target to generate assembly for a file
+tp8/tp8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP8.dir\build.make CMakeFiles/TP8.dir/tp8/tp8.c.s
+.PHONY : tp8/tp8.c.s
+
+tp8/tp8_exo.obj: tp8/tp8_exo.c.obj
+.PHONY : tp8/tp8_exo.obj
+
+# target to build an object file
+tp8/tp8_exo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP8.dir\build.make CMakeFiles/TP8.dir/tp8/tp8_exo.c.obj
+.PHONY : tp8/tp8_exo.c.obj
+
+tp8/tp8_exo.i: tp8/tp8_exo.c.i
+.PHONY : tp8/tp8_exo.i
+
+# target to preprocess a source file
+tp8/tp8_exo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP8.dir\build.make CMakeFiles/TP8.dir/tp8/tp8_exo.c.i
+.PHONY : tp8/tp8_exo.c.i
+
+tp8/tp8_exo.s: tp8/tp8_exo.c.s
+.PHONY : tp8/tp8_exo.s
+
+# target to generate assembly for a file
+tp8/tp8_exo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP8.dir\build.make CMakeFiles/TP8.dir/tp8/tp8_exo.c.s
+.PHONY : tp8/tp8_exo.c.s
+
+tp9/tp9.obj: tp9/tp9.c.obj
+.PHONY : tp9/tp9.obj
+
+# target to build an object file
+tp9/tp9.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP9.dir\build.make CMakeFiles/TP9.dir/tp9/tp9.c.obj
+.PHONY : tp9/tp9.c.obj
+
+tp9/tp9.i: tp9/tp9.c.i
+.PHONY : tp9/tp9.i
+
+# target to preprocess a source file
+tp9/tp9.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP9.dir\build.make CMakeFiles/TP9.dir/tp9/tp9.c.i
+.PHONY : tp9/tp9.c.i
+
+tp9/tp9.s: tp9/tp9.c.s
+.PHONY : tp9/tp9.s
+
+# target to generate assembly for a file
+tp9/tp9.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP9.dir\build.make CMakeFiles/TP9.dir/tp9/tp9.c.s
+.PHONY : tp9/tp9.c.s
+
+tp9/tp9_exo.obj: tp9/tp9_exo.c.obj
+.PHONY : tp9/tp9_exo.obj
+
+# target to build an object file
+tp9/tp9_exo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP9.dir\build.make CMakeFiles/TP9.dir/tp9/tp9_exo.c.obj
+.PHONY : tp9/tp9_exo.c.obj
+
+tp9/tp9_exo.i: tp9/tp9_exo.c.i
+.PHONY : tp9/tp9_exo.i
+
+# target to preprocess a source file
+tp9/tp9_exo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP9.dir\build.make CMakeFiles/TP9.dir/tp9/tp9_exo.c.i
+.PHONY : tp9/tp9_exo.c.i
+
+tp9/tp9_exo.s: tp9/tp9_exo.c.s
+.PHONY : tp9/tp9_exo.s
+
+# target to generate assembly for a file
+tp9/tp9_exo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP9.dir\build.make CMakeFiles/TP9.dir/tp9/tp9_exo.c.s
+.PHONY : tp9/tp9_exo.c.s
 
 # Help Target
 help:
@@ -435,30 +555,45 @@ help:
 	@echo ... TP7
 	@echo ... TP8
 	@echo ... TP9
-	@echo ... tp3.obj
-	@echo ... tp3.i
-	@echo ... tp3.s
-	@echo ... tp4.obj
-	@echo ... tp4.i
-	@echo ... tp4.s
-	@echo ... tp4_exo.obj
-	@echo ... tp4_exo.i
-	@echo ... tp4_exo.s
-	@echo ... tp5.obj
-	@echo ... tp5.i
-	@echo ... tp5.s
-	@echo ... tp6.obj
-	@echo ... tp6.i
-	@echo ... tp6.s
-	@echo ... tp7.obj
-	@echo ... tp7.i
-	@echo ... tp7.s
-	@echo ... tp8.obj
-	@echo ... tp8.i
-	@echo ... tp8.s
-	@echo ... tp9.obj
-	@echo ... tp9.i
-	@echo ... tp9.s
+	@echo ... tp3/tp3.obj
+	@echo ... tp3/tp3.i
+	@echo ... tp3/tp3.s
+	@echo ... tp4/tp4.obj
+	@echo ... tp4/tp4.i
+	@echo ... tp4/tp4.s
+	@echo ... tp4/tp4_exo.obj
+	@echo ... tp4/tp4_exo.i
+	@echo ... tp4/tp4_exo.s
+	@echo ... tp5/tp5.obj
+	@echo ... tp5/tp5.i
+	@echo ... tp5/tp5.s
+	@echo ... tp5/tp5_exo.obj
+	@echo ... tp5/tp5_exo.i
+	@echo ... tp5/tp5_exo.s
+	@echo ... tp6/tp6.obj
+	@echo ... tp6/tp6.i
+	@echo ... tp6/tp6.s
+	@echo ... tp6/tp6_exo.obj
+	@echo ... tp6/tp6_exo.i
+	@echo ... tp6/tp6_exo.s
+	@echo ... tp7/tp7.obj
+	@echo ... tp7/tp7.i
+	@echo ... tp7/tp7.s
+	@echo ... tp7/tp7_exo.obj
+	@echo ... tp7/tp7_exo.i
+	@echo ... tp7/tp7_exo.s
+	@echo ... tp8/tp8.obj
+	@echo ... tp8/tp8.i
+	@echo ... tp8/tp8.s
+	@echo ... tp8/tp8_exo.obj
+	@echo ... tp8/tp8_exo.i
+	@echo ... tp8/tp8_exo.s
+	@echo ... tp9/tp9.obj
+	@echo ... tp9/tp9.i
+	@echo ... tp9/tp9.s
+	@echo ... tp9/tp9_exo.obj
+	@echo ... tp9/tp9_exo.i
+	@echo ... tp9/tp9_exo.s
 .PHONY : help
 
 

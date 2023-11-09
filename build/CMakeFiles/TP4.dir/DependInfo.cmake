@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/ntrem/ECE/Info/TP/tp4.c" "CMakeFiles/TP4.dir/tp4.c.obj" "gcc" "CMakeFiles/TP4.dir/tp4.c.obj.d"
-  "C:/Users/ntrem/ECE/Info/TP/tp4_exo.c" "CMakeFiles/TP4.dir/tp4_exo.c.obj" "gcc" "CMakeFiles/TP4.dir/tp4_exo.c.obj.d"
+  "C:/Users/ntrem/ECE/Info/TP/tp4/tp4.c" "CMakeFiles/TP4.dir/tp4/tp4.c.obj" "gcc" "CMakeFiles/TP4.dir/tp4/tp4.c.obj.d"
+  "C:/Users/ntrem/ECE/Info/TP/tp4/tp4_exo.c" "CMakeFiles/TP4.dir/tp4/tp4_exo.c.obj" "gcc" "CMakeFiles/TP4.dir/tp4/tp4_exo.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

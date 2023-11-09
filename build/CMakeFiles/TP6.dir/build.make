@@ -68,33 +68,49 @@ include CMakeFiles/TP6.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TP6.dir/flags.make
 
-CMakeFiles/TP6.dir/tp6.c.obj: CMakeFiles/TP6.dir/flags.make
-CMakeFiles/TP6.dir/tp6.c.obj: C:/Users/ntrem/ECE/Info/TP/tp6.c
-CMakeFiles/TP6.dir/tp6.c.obj: CMakeFiles/TP6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TP6.dir/tp6.c.obj"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TP6.dir/tp6.c.obj -MF CMakeFiles\TP6.dir\tp6.c.obj.d -o CMakeFiles\TP6.dir\tp6.c.obj -c C:\Users\ntrem\ECE\Info\TP\tp6.c
+CMakeFiles/TP6.dir/tp6/tp6.c.obj: CMakeFiles/TP6.dir/flags.make
+CMakeFiles/TP6.dir/tp6/tp6.c.obj: C:/Users/ntrem/ECE/Info/TP/tp6/tp6.c
+CMakeFiles/TP6.dir/tp6/tp6.c.obj: CMakeFiles/TP6.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TP6.dir/tp6/tp6.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TP6.dir/tp6/tp6.c.obj -MF CMakeFiles\TP6.dir\tp6\tp6.c.obj.d -o CMakeFiles\TP6.dir\tp6\tp6.c.obj -c C:\Users\ntrem\ECE\Info\TP\tp6\tp6.c
 
-CMakeFiles/TP6.dir/tp6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TP6.dir/tp6.c.i"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ntrem\ECE\Info\TP\tp6.c > CMakeFiles\TP6.dir\tp6.c.i
+CMakeFiles/TP6.dir/tp6/tp6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TP6.dir/tp6/tp6.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ntrem\ECE\Info\TP\tp6\tp6.c > CMakeFiles\TP6.dir\tp6\tp6.c.i
 
-CMakeFiles/TP6.dir/tp6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TP6.dir/tp6.c.s"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ntrem\ECE\Info\TP\tp6.c -o CMakeFiles\TP6.dir\tp6.c.s
+CMakeFiles/TP6.dir/tp6/tp6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TP6.dir/tp6/tp6.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ntrem\ECE\Info\TP\tp6\tp6.c -o CMakeFiles\TP6.dir\tp6\tp6.c.s
+
+CMakeFiles/TP6.dir/tp6/tp6_exo.c.obj: CMakeFiles/TP6.dir/flags.make
+CMakeFiles/TP6.dir/tp6/tp6_exo.c.obj: C:/Users/ntrem/ECE/Info/TP/tp6/tp6_exo.c
+CMakeFiles/TP6.dir/tp6/tp6_exo.c.obj: CMakeFiles/TP6.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TP6.dir/tp6/tp6_exo.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TP6.dir/tp6/tp6_exo.c.obj -MF CMakeFiles\TP6.dir\tp6\tp6_exo.c.obj.d -o CMakeFiles\TP6.dir\tp6\tp6_exo.c.obj -c C:\Users\ntrem\ECE\Info\TP\tp6\tp6_exo.c
+
+CMakeFiles/TP6.dir/tp6/tp6_exo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TP6.dir/tp6/tp6_exo.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ntrem\ECE\Info\TP\tp6\tp6_exo.c > CMakeFiles\TP6.dir\tp6\tp6_exo.c.i
+
+CMakeFiles/TP6.dir/tp6/tp6_exo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TP6.dir/tp6/tp6_exo.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ntrem\ECE\Info\TP\tp6\tp6_exo.c -o CMakeFiles\TP6.dir\tp6\tp6_exo.c.s
 
 # Object files for target TP6
 TP6_OBJECTS = \
-"CMakeFiles/TP6.dir/tp6.c.obj"
+"CMakeFiles/TP6.dir/tp6/tp6.c.obj" \
+"CMakeFiles/TP6.dir/tp6/tp6_exo.c.obj"
 
 # External object files for target TP6
 TP6_EXTERNAL_OBJECTS =
 
-TP6.exe: CMakeFiles/TP6.dir/tp6.c.obj
+TP6.exe: CMakeFiles/TP6.dir/tp6/tp6.c.obj
+TP6.exe: CMakeFiles/TP6.dir/tp6/tp6_exo.c.obj
 TP6.exe: CMakeFiles/TP6.dir/build.make
 TP6.exe: CMakeFiles/TP6.dir/linkLibs.rsp
 TP6.exe: CMakeFiles/TP6.dir/objects1.rsp
 TP6.exe: CMakeFiles/TP6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable TP6.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable TP6.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TP6.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

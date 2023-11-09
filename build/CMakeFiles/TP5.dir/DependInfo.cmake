@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/ntrem/ECE/Info/TP/tp5.c" "CMakeFiles/TP5.dir/tp5.c.obj" "gcc" "CMakeFiles/TP5.dir/tp5.c.obj.d"
+  "C:/Users/ntrem/ECE/Info/TP/tp5/tp5.c" "CMakeFiles/TP5.dir/tp5/tp5.c.obj" "gcc" "CMakeFiles/TP5.dir/tp5/tp5.c.obj.d"
+  "C:/Users/ntrem/ECE/Info/TP/tp5/tp5_exo.c" "CMakeFiles/TP5.dir/tp5/tp5_exo.c.obj" "gcc" "CMakeFiles/TP5.dir/tp5/tp5_exo.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

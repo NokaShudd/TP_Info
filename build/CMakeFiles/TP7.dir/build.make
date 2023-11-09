@@ -68,33 +68,49 @@ include CMakeFiles/TP7.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TP7.dir/flags.make
 
-CMakeFiles/TP7.dir/tp7.c.obj: CMakeFiles/TP7.dir/flags.make
-CMakeFiles/TP7.dir/tp7.c.obj: C:/Users/ntrem/ECE/Info/TP/tp7.c
-CMakeFiles/TP7.dir/tp7.c.obj: CMakeFiles/TP7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TP7.dir/tp7.c.obj"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TP7.dir/tp7.c.obj -MF CMakeFiles\TP7.dir\tp7.c.obj.d -o CMakeFiles\TP7.dir\tp7.c.obj -c C:\Users\ntrem\ECE\Info\TP\tp7.c
+CMakeFiles/TP7.dir/tp7/tp7.c.obj: CMakeFiles/TP7.dir/flags.make
+CMakeFiles/TP7.dir/tp7/tp7.c.obj: C:/Users/ntrem/ECE/Info/TP/tp7/tp7.c
+CMakeFiles/TP7.dir/tp7/tp7.c.obj: CMakeFiles/TP7.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TP7.dir/tp7/tp7.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TP7.dir/tp7/tp7.c.obj -MF CMakeFiles\TP7.dir\tp7\tp7.c.obj.d -o CMakeFiles\TP7.dir\tp7\tp7.c.obj -c C:\Users\ntrem\ECE\Info\TP\tp7\tp7.c
 
-CMakeFiles/TP7.dir/tp7.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TP7.dir/tp7.c.i"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ntrem\ECE\Info\TP\tp7.c > CMakeFiles\TP7.dir\tp7.c.i
+CMakeFiles/TP7.dir/tp7/tp7.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TP7.dir/tp7/tp7.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ntrem\ECE\Info\TP\tp7\tp7.c > CMakeFiles\TP7.dir\tp7\tp7.c.i
 
-CMakeFiles/TP7.dir/tp7.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TP7.dir/tp7.c.s"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ntrem\ECE\Info\TP\tp7.c -o CMakeFiles\TP7.dir\tp7.c.s
+CMakeFiles/TP7.dir/tp7/tp7.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TP7.dir/tp7/tp7.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ntrem\ECE\Info\TP\tp7\tp7.c -o CMakeFiles\TP7.dir\tp7\tp7.c.s
+
+CMakeFiles/TP7.dir/tp7/tp7_exo.c.obj: CMakeFiles/TP7.dir/flags.make
+CMakeFiles/TP7.dir/tp7/tp7_exo.c.obj: C:/Users/ntrem/ECE/Info/TP/tp7/tp7_exo.c
+CMakeFiles/TP7.dir/tp7/tp7_exo.c.obj: CMakeFiles/TP7.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TP7.dir/tp7/tp7_exo.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TP7.dir/tp7/tp7_exo.c.obj -MF CMakeFiles\TP7.dir\tp7\tp7_exo.c.obj.d -o CMakeFiles\TP7.dir\tp7\tp7_exo.c.obj -c C:\Users\ntrem\ECE\Info\TP\tp7\tp7_exo.c
+
+CMakeFiles/TP7.dir/tp7/tp7_exo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TP7.dir/tp7/tp7_exo.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ntrem\ECE\Info\TP\tp7\tp7_exo.c > CMakeFiles\TP7.dir\tp7\tp7_exo.c.i
+
+CMakeFiles/TP7.dir/tp7/tp7_exo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TP7.dir/tp7/tp7_exo.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ntrem\ECE\Info\TP\tp7\tp7_exo.c -o CMakeFiles\TP7.dir\tp7\tp7_exo.c.s
 
 # Object files for target TP7
 TP7_OBJECTS = \
-"CMakeFiles/TP7.dir/tp7.c.obj"
+"CMakeFiles/TP7.dir/tp7/tp7.c.obj" \
+"CMakeFiles/TP7.dir/tp7/tp7_exo.c.obj"
 
 # External object files for target TP7
 TP7_EXTERNAL_OBJECTS =
 
-TP7.exe: CMakeFiles/TP7.dir/tp7.c.obj
+TP7.exe: CMakeFiles/TP7.dir/tp7/tp7.c.obj
+TP7.exe: CMakeFiles/TP7.dir/tp7/tp7_exo.c.obj
 TP7.exe: CMakeFiles/TP7.dir/build.make
 TP7.exe: CMakeFiles/TP7.dir/linkLibs.rsp
 TP7.exe: CMakeFiles/TP7.dir/objects1.rsp
 TP7.exe: CMakeFiles/TP7.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable TP7.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable TP7.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TP7.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

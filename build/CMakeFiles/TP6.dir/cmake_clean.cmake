@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TP6.dir/tp6.c.obj"
-  "CMakeFiles/TP6.dir/tp6.c.obj.d"
+  "CMakeFiles/TP6.dir/tp6/tp6.c.obj"
+  "CMakeFiles/TP6.dir/tp6/tp6.c.obj.d"
+  "CMakeFiles/TP6.dir/tp6/tp6_exo.c.obj"
+  "CMakeFiles/TP6.dir/tp6/tp6_exo.c.obj.d"
   "TP6.exe"
   "TP6.exe.manifest"
   "TP6.pdb"

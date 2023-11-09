@@ -1,12 +1,8 @@
+#include "tp5_exo.h"
 #include <stdio.h>
-
-# pragma region EXERCICES
 
 /*======================== EXO 1 ========================*/
 
-typedef struct NombreRationnel{
-    int numerateur, denominateur;
-} nombreRationnel;
 
 nombreRationnel add(nombreRationnel number1, nombreRationnel number2){
     nombreRationnel newNumber = number1;
@@ -99,13 +95,4 @@ void exo3(){
         table1D[i] = table2D[i/4][i%4];
         printf("%d \n", table1D[i]);
     }
-}
-
-# pragma endregion
-
-int main(){
-    // exo1();  DONE  
-    // exo2();  DONE
-    // exo3();  DONE
-    return 0;
 }

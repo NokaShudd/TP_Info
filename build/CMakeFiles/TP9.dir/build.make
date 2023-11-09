@@ -68,33 +68,49 @@ include CMakeFiles/TP9.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TP9.dir/flags.make
 
-CMakeFiles/TP9.dir/tp9.c.obj: CMakeFiles/TP9.dir/flags.make
-CMakeFiles/TP9.dir/tp9.c.obj: C:/Users/ntrem/ECE/Info/TP/tp9.c
-CMakeFiles/TP9.dir/tp9.c.obj: CMakeFiles/TP9.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TP9.dir/tp9.c.obj"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TP9.dir/tp9.c.obj -MF CMakeFiles\TP9.dir\tp9.c.obj.d -o CMakeFiles\TP9.dir\tp9.c.obj -c C:\Users\ntrem\ECE\Info\TP\tp9.c
+CMakeFiles/TP9.dir/tp9/tp9.c.obj: CMakeFiles/TP9.dir/flags.make
+CMakeFiles/TP9.dir/tp9/tp9.c.obj: C:/Users/ntrem/ECE/Info/TP/tp9/tp9.c
+CMakeFiles/TP9.dir/tp9/tp9.c.obj: CMakeFiles/TP9.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TP9.dir/tp9/tp9.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TP9.dir/tp9/tp9.c.obj -MF CMakeFiles\TP9.dir\tp9\tp9.c.obj.d -o CMakeFiles\TP9.dir\tp9\tp9.c.obj -c C:\Users\ntrem\ECE\Info\TP\tp9\tp9.c
 
-CMakeFiles/TP9.dir/tp9.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TP9.dir/tp9.c.i"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ntrem\ECE\Info\TP\tp9.c > CMakeFiles\TP9.dir\tp9.c.i
+CMakeFiles/TP9.dir/tp9/tp9.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TP9.dir/tp9/tp9.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ntrem\ECE\Info\TP\tp9\tp9.c > CMakeFiles\TP9.dir\tp9\tp9.c.i
 
-CMakeFiles/TP9.dir/tp9.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TP9.dir/tp9.c.s"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ntrem\ECE\Info\TP\tp9.c -o CMakeFiles\TP9.dir\tp9.c.s
+CMakeFiles/TP9.dir/tp9/tp9.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TP9.dir/tp9/tp9.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ntrem\ECE\Info\TP\tp9\tp9.c -o CMakeFiles\TP9.dir\tp9\tp9.c.s
+
+CMakeFiles/TP9.dir/tp9/tp9_exo.c.obj: CMakeFiles/TP9.dir/flags.make
+CMakeFiles/TP9.dir/tp9/tp9_exo.c.obj: C:/Users/ntrem/ECE/Info/TP/tp9/tp9_exo.c
+CMakeFiles/TP9.dir/tp9/tp9_exo.c.obj: CMakeFiles/TP9.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TP9.dir/tp9/tp9_exo.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TP9.dir/tp9/tp9_exo.c.obj -MF CMakeFiles\TP9.dir\tp9\tp9_exo.c.obj.d -o CMakeFiles\TP9.dir\tp9\tp9_exo.c.obj -c C:\Users\ntrem\ECE\Info\TP\tp9\tp9_exo.c
+
+CMakeFiles/TP9.dir/tp9/tp9_exo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TP9.dir/tp9/tp9_exo.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ntrem\ECE\Info\TP\tp9\tp9_exo.c > CMakeFiles\TP9.dir\tp9\tp9_exo.c.i
+
+CMakeFiles/TP9.dir/tp9/tp9_exo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TP9.dir/tp9/tp9_exo.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ntrem\ECE\Info\TP\tp9\tp9_exo.c -o CMakeFiles\TP9.dir\tp9\tp9_exo.c.s
 
 # Object files for target TP9
 TP9_OBJECTS = \
-"CMakeFiles/TP9.dir/tp9.c.obj"
+"CMakeFiles/TP9.dir/tp9/tp9.c.obj" \
+"CMakeFiles/TP9.dir/tp9/tp9_exo.c.obj"
 
 # External object files for target TP9
 TP9_EXTERNAL_OBJECTS =
 
-TP9.exe: CMakeFiles/TP9.dir/tp9.c.obj
+TP9.exe: CMakeFiles/TP9.dir/tp9/tp9.c.obj
+TP9.exe: CMakeFiles/TP9.dir/tp9/tp9_exo.c.obj
 TP9.exe: CMakeFiles/TP9.dir/build.make
 TP9.exe: CMakeFiles/TP9.dir/linkLibs.rsp
 TP9.exe: CMakeFiles/TP9.dir/objects1.rsp
 TP9.exe: CMakeFiles/TP9.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable TP9.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ntrem\ECE\Info\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable TP9.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TP9.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

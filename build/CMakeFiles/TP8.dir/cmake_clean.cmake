@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TP8.dir/tp8.c.obj"
-  "CMakeFiles/TP8.dir/tp8.c.obj.d"
+  "CMakeFiles/TP8.dir/tp8/tp8.c.obj"
+  "CMakeFiles/TP8.dir/tp8/tp8.c.obj.d"
+  "CMakeFiles/TP8.dir/tp8/tp8_exo.c.obj"
+  "CMakeFiles/TP8.dir/tp8/tp8_exo.c.obj.d"
   "TP8.exe"
   "TP8.exe.manifest"
   "TP8.pdb"
