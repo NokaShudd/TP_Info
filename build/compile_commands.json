@@ -13,6 +13,12 @@
 },
 {
   "directory": "C:/Users/ntrem/ECE/Info/TP/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TP4.dir\\tp4_exo.c.obj -c C:\\Users\\ntrem\\ECE\\Info\\TP\\tp4_exo.c",
+  "file": "C:/Users/ntrem/ECE/Info/TP/tp4_exo.c",
+  "output": "CMakeFiles/TP4.dir/tp4_exo.c.obj"
+},
+{
+  "directory": "C:/Users/ntrem/ECE/Info/TP/build",
   "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TP5.dir\\tp5.c.obj -c C:\\Users\\ntrem\\ECE\\Info\\TP\\tp5.c",
   "file": "C:/Users/ntrem/ECE/Info/TP/tp5.c",
   "output": "CMakeFiles/TP5.dir/tp5.c.obj"
@@ -34,5 +40,11 @@
   "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TP8.dir\\tp8.c.obj -c C:\\Users\\ntrem\\ECE\\Info\\TP\\tp8.c",
   "file": "C:/Users/ntrem/ECE/Info/TP/tp8.c",
   "output": "CMakeFiles/TP8.dir/tp8.c.obj"
+},
+{
+  "directory": "C:/Users/ntrem/ECE/Info/TP/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TP9.dir\\tp9.c.obj -c C:\\Users\\ntrem\\ECE\\Info\\TP\\tp9.c",
+  "file": "C:/Users/ntrem/ECE/Info/TP/tp9.c",
+  "output": "CMakeFiles/TP9.dir/tp9.c.obj"
 }
 ]

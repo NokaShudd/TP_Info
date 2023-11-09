@@ -20,7 +20,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -40,7 +41,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -56,7 +58,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TP4::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TP4-Debug-6d4986a16a4dd21bfc70.json",
+					"jsonFile" : "target-TP4-Debug-f0e3b4baaa6ec0212b00.json",
 					"name" : "TP4",
 					"projectIndex" : 0
 				},
@@ -86,6 +88,13 @@
 					"id" : "TP8::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-TP8-Debug-13b7c4b41e2b3da7fb80.json",
 					"name" : "TP8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TP9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TP9-Debug-1ed59749a0819390492e.json",
+					"name" : "TP9",
 					"projectIndex" : 0
 				}
 			]

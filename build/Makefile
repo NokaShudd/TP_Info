@@ -213,6 +213,19 @@ TP8/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP8.dir\build.make CMakeFiles/TP8.dir/build
 .PHONY : TP8/fast
 
+#=============================================================================
+# Target rules for targets named TP9
+
+# Build rule for target.
+TP9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TP9
+.PHONY : TP9
+
+# fast build rule for target.
+TP9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP9.dir\build.make CMakeFiles/TP9.dir/build
+.PHONY : TP9/fast
+
 tp3.obj: tp3.c.obj
 .PHONY : tp3.obj
 
@@ -260,6 +273,30 @@ tp4.s: tp4.c.s
 tp4.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4.c.s
 .PHONY : tp4.c.s
+
+tp4_exo.obj: tp4_exo.c.obj
+.PHONY : tp4_exo.obj
+
+# target to build an object file
+tp4_exo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4_exo.c.obj
+.PHONY : tp4_exo.c.obj
+
+tp4_exo.i: tp4_exo.c.i
+.PHONY : tp4_exo.i
+
+# target to preprocess a source file
+tp4_exo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4_exo.c.i
+.PHONY : tp4_exo.c.i
+
+tp4_exo.s: tp4_exo.c.s
+.PHONY : tp4_exo.s
+
+# target to generate assembly for a file
+tp4_exo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP4.dir\build.make CMakeFiles/TP4.dir/tp4_exo.c.s
+.PHONY : tp4_exo.c.s
 
 tp5.obj: tp5.c.obj
 .PHONY : tp5.obj
@@ -357,6 +394,30 @@ tp8.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP8.dir\build.make CMakeFiles/TP8.dir/tp8.c.s
 .PHONY : tp8.c.s
 
+tp9.obj: tp9.c.obj
+.PHONY : tp9.obj
+
+# target to build an object file
+tp9.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP9.dir\build.make CMakeFiles/TP9.dir/tp9.c.obj
+.PHONY : tp9.c.obj
+
+tp9.i: tp9.c.i
+.PHONY : tp9.i
+
+# target to preprocess a source file
+tp9.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP9.dir\build.make CMakeFiles/TP9.dir/tp9.c.i
+.PHONY : tp9.c.i
+
+tp9.s: tp9.c.s
+.PHONY : tp9.s
+
+# target to generate assembly for a file
+tp9.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP9.dir\build.make CMakeFiles/TP9.dir/tp9.c.s
+.PHONY : tp9.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -373,12 +434,16 @@ help:
 	@echo ... TP6
 	@echo ... TP7
 	@echo ... TP8
+	@echo ... TP9
 	@echo ... tp3.obj
 	@echo ... tp3.i
 	@echo ... tp3.s
 	@echo ... tp4.obj
 	@echo ... tp4.i
 	@echo ... tp4.s
+	@echo ... tp4_exo.obj
+	@echo ... tp4_exo.i
+	@echo ... tp4_exo.s
 	@echo ... tp5.obj
 	@echo ... tp5.i
 	@echo ... tp5.s
@@ -391,6 +456,9 @@ help:
 	@echo ... tp8.obj
 	@echo ... tp8.i
 	@echo ... tp8.s
+	@echo ... tp9.obj
+	@echo ... tp9.i
+	@echo ... tp9.s
 .PHONY : help
 
 
