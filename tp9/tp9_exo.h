@@ -1,5 +1,5 @@
-#ifndef HEADER_FILE_NAME
-#define HEADER_FILE_NAME
+#ifndef TP9HEADER
+#define TP9HEADER
 
 typedef struct StudentsNote{
     float math, physics, info;
@@ -10,9 +10,6 @@ int         writeBin                (   char* path, Student students[5]         
 int         writeTxt                (   char* path, Student students[5]         );
 void        writeFiles              (   Student students[5]                     );
 int         readBin                 (   char* path, float** notes               );
-
+void        exo                     ();
 
 #endif
-
-#include <stdio.h>
-#include <stdlib.h>

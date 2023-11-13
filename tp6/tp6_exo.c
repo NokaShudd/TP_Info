@@ -8,7 +8,7 @@ void setToZero(int* entier, float* real){
     *real = 0;
 }
 
-void exo1(){
+void TP6exo1(){
     int entier;
     float real;
 
@@ -31,7 +31,7 @@ int funcDivide(int number1, int number2, int* quotient){
     return number1 % number2;
 }
 
-void exo2(){
+void TP6exo2(){
     //  Pour a = 24 b = 6
     int quotient, reste;
     
@@ -52,7 +52,7 @@ void swap(int* number1, int* number2){
     *number1 = *number1 - *number2;
 }
 
-void exo3(){
+void TP6exo3(){
     int a = 20, b = 25;
     printf("a : %d, b : %d\n", a, b);
     swap(&a, &b);
@@ -68,7 +68,7 @@ void calculSumProduct(int table[], int length, int* sum, long* product){
     }
 }
 
-void exo4(){
+void TP6exo4(){
     int tableLength = 0;
     printf("Quelle est la longueur du tableau ?\n");
     scanf("%d", &tableLength);
@@ -107,7 +107,7 @@ void showPoint(Point point){
     printf("X : %f, Y: %f\n", point.x, point.y);
 }
 
-void exo5(){
+void TP6exo5(){
     Point pointA = {5.4f, 8.6f};
     Point pointB = {78.7f, 7.6f};
 

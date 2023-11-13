@@ -14,7 +14,7 @@ int* createTable(int* size){
     return table;
 }
 
-int exo1(){
+void TP8exo1(){
     int size = 0;
     int* table = createTable(&size);
 
@@ -29,7 +29,7 @@ int exo1(){
 /*======================== EXO 2 ========================*/
 
 
-void exo2(){
+void TP8exo2(){
     int size = 0;
     printf("Nombre de notes : ");
     scanf("%d", &size);
@@ -119,7 +119,7 @@ void bubbleSort(int* table, int length){
     
 }
 
-void exo3(){
+void TP8exo3(){
     int height, width = 0;
     printf("Entre la hauteur et la profondeur du tableau :\n");
     scanf("%d %d", &height, &width);
@@ -182,7 +182,7 @@ void showWord(char** tableWords){
     
 }
 
-void exo4(){
+void TP8exo4(){
     char** tableWords = (char**) calloc(10, sizeof(char*));
     read10Words(tableWords);
 

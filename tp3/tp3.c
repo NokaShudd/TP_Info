@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "tp3.h"
 #define true    1
 #define false   0
 
@@ -8,7 +9,7 @@
 
 /*======================== EXO 1 ========================*/
 
-void exo1(){
+void TP3exo1(){
     int numb1, numb2;
 
     printf("Entre le premier nombre :\n");
@@ -22,7 +23,7 @@ void exo1(){
 
 /*======================== EXO 2 ========================*/
 
-void exo2(){
+void TP3exo2(){
     int width, height;
 
     printf("Entre la largeur :\n");
@@ -36,7 +37,7 @@ void exo2(){
 
 /*======================== EXO 3 ========================*/
 
-void exo3(){
+void TP3exo3(){
     const int THREE = 3;
     int value;
 
@@ -49,7 +50,7 @@ void exo3(){
 
 /*======================== EXO 4 ========================*/
 
-void exo4(){
+void TP3exo4(){
     int age;
     char chara;
     int etudiant = false;
@@ -75,7 +76,7 @@ void exo4(){
 
 /*======================== EXO 5 ========================*/
 
-void exo5(){
+void TP3exo5(){
     int number;
     
     printf("Entrer le numéro :\n");
@@ -117,7 +118,7 @@ float getValue(){
     return value;
 }
 
-void exo6(){
+void TP3exo6(){
     float value1 = getValue();
     float value2 = getValue();
     float value3 = getValue();
@@ -127,7 +128,7 @@ void exo6(){
 
 /*======================== EXO 7 ========================*/
 
-void exo7(){
+void TP3exo7(){
     int classes = 0;
     int students = 0;
     int classeStudents;
@@ -147,7 +148,7 @@ void exo7(){
 
 /*======================== EXO 8 ========================*/
 
-void exo8(){
+void TP3exo8(){
     int number = 0;
 
     do{
@@ -158,7 +159,7 @@ void exo8(){
 
 /*======================== EXO 9 ========================*/
 
-void exo9(){
+void TP3exo9(){
     int floor = 0;
     int blocs;
     int i = 1;
@@ -177,7 +178,7 @@ void exo9(){
 
 /*======================= EXO 10 =======================*/
 
-void exo10(){
+void TP3exo10(){
     float numbers = 0;
     float total = 0; 
     float temp = 0;
@@ -198,18 +199,3 @@ void exo10(){
 
 #pragma endregion
 
-
-int main(){
-    // exo1();  DONE
-    // exo2();  DONE
-    // exo3();  DONE
-    // exo4();  DONE
-    // exo5();  DONE
-    // exo6();  DONE
-    // exo7();  DONE
-    // exo8();  DONE
-    // exo9();  DONE
-    // exo10(); DONE
-
-    return 0;
-}

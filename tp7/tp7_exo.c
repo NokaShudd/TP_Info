@@ -13,7 +13,7 @@ int numberOf(char* string, char letter){
     return number;
 }
 
-void exo1(){
+void TP7exo1(){
     char string[25] = "Test de chaine";
     int numberE = numberOf(string, 'e');
     printf("Il y a %d e\n", numberE);
@@ -21,7 +21,7 @@ void exo1(){
 
 /*======================== EXO 2 ========================*/
 
-int getRandomInteger(int min, int max){
+int getRandomInteger7(int min, int max){
     // Inverse min et max si les bornes sont mal données
     if (min > max) {
         max += min;
@@ -35,27 +35,27 @@ int getRandomInteger(int min, int max){
 int testRandomInteger(){
     int value = 0;
     for (int i = 0; i < 100; i++){
-        value = getRandomInteger(1, 10);
+        value = getRandomInteger7(1, 10);
         if (value < 1 || value > 10) return 0;
     }
     return 1;
 }
 
-void exo2(){
+void TP7exo2(){
     printf(testRandomInteger() ? "Ca marche" : "Marche pas");
 }
 
 /*======================== EXO 3 ========================*/
 
 
-void exo3(){
+void TP7exo3(){
     int max, min;
     printf("Entre la valeur minimale : ");
     scanf("%d", &min);
     printf("Entre la valeur maximale : ");
     scanf(" %d", &max);
 
-    int goal = getRandomInteger(min, max);
+    int goal = getRandomInteger7(min, max);
     int guess;
     
     printf("Entre une valeur : ");

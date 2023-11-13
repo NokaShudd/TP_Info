@@ -1,6 +1,6 @@
 #include "tp9_exo.h"
 
-int main(){
+void exo(){
     int test = 0;
     printf("Faut-il entrer les valeurs ? (1: oui) \n");
     scanf("%d", &test);
@@ -36,5 +36,4 @@ int main(){
 
     free(notes);
 
-    return 0;
 }

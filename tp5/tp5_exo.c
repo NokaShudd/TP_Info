@@ -35,7 +35,7 @@ nombreRationnel newNumber(){
     return newNumber;
 }
 
-void exo1(){
+void TP5exo1(){
     nombreRationnel number1 = newNumber();
     nombreRationnel number2 = newNumber();
 
@@ -63,7 +63,7 @@ int getMax(int entiers[], int nombre){
     return max;
 }
 
-void exo2(){
+void TP5exo2(){
     int entiers[100];
     int nombre = 0;
 
@@ -80,7 +80,7 @@ void exo2(){
 
 /*======================== EXO 3 ========================*/
 
-void exo3(){
+void TP5exo3(){
     int table2D[3][4];
     int table1D[12];
 

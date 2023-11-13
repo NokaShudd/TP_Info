@@ -1,5 +1,5 @@
-#ifndef HEADER_FILE_NAME
-#define HEADER_FILE_NAME
+#ifndef TP5_HEADER
+#define TP5_HEADER
 
 typedef struct NombreRationnel{
     int numerateur, denominateur;
@@ -15,8 +15,8 @@ nombreRationnel newNumber   ();
 
 int             getMax      (int entiers[], int nombre);
 
-void            exo1        ();
-void            exo2        ();
-void            exo3        ();
+void            TP5exo1        ();
+void            TP5exo2        ();
+void            TP5exo3        ();
 
 #endif

@@ -1,8 +1,8 @@
-#ifndef HEADER_FILE_NAME
-#define HEADER_FILE_NAME
+#ifndef TP7HEADER
+#define TP7HEADER
 
-void        exo1        ();
-void        exo2        ();
-void        exo3        ();
+void        TP7exo1        ();
+void        TP7exo2        ();
+void        TP7exo3        ();
 
 #endif

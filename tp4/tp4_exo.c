@@ -3,11 +3,11 @@
 
 /*======================== EXO 1 ========================*/
 
-int getMax(int valueA, int valueB){
+int getMax4(int valueA, int valueB){
     return valueA > valueB ? valueA : valueB;
 }
 
-void exo1(){
+void TP4exo1(){
     int numb1, numb2;
 
     printf("Entre le premier nombre :\n");
@@ -16,7 +16,7 @@ void exo1(){
     printf("Entre le deuxieme nombre :\n");
     scanf(" %d", &numb2);
 
-    printf("Le plus grand est %d", getMax(numb1, numb2));
+    printf("Le plus grand est %d", getMax4(numb1, numb2));
 }
 
 /*======================== EXO 2 ========================*/
@@ -33,7 +33,7 @@ int saisirEntier(){
 int calculAire  (int largeur, int longueur) { return largeur * longueur; }
 int calculPerim (int largeur, int longueur) { return 2*largeur+2*longueur; }
 
-void exo2(){
+void TP4exo2(){
     int largeur = saisirEntier();
     int longueur = saisirEntier();
 
@@ -47,7 +47,7 @@ void exo2(){
 
 int estMultiple (int valueA, int valueB) { return ((valueA % valueB) == 0); }
 
-void exo3(){
+void TP4exo3(){
     int entier = saisirEntier();
 
     printf(
