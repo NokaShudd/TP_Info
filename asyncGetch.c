@@ -43,7 +43,7 @@ void *updateKeyPressed(void *args){
 int main() {
     // Init une kpStruct 'vide'    
     kpStruct kps = {'\0', 0};
-
+    char oldKey = '\0' ;
 
     // Lance le thread
     pthread_t thread_id; 
@@ -52,8 +52,11 @@ int main() {
     // Le code s'exécute en même temps que le thread (boucle pour l'exemple)
     // les champs shoudlStop et key de kps sont accessible dans le main
     while (!kps.shouldStop){
+        // utile pour que la touche ne soit compté qu'une fois
+        if (kps.key == oldKey) kps.key = '\0';
         sleep(1); // pour éviter que la console soit illisible
         printf("key is : %c\n", kps.key);
+        oldKey = kps.key;
     }
 
     return 0;
