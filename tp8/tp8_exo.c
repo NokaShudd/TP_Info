@@ -50,6 +50,8 @@ void TP8exo2(){
     for (int i = 0; i < size; i++){
         moy += table[i];
     }
+
+    free(table);
     moy /= size;
     printf("Moyenne est : %f", moy);
 }
@@ -141,6 +143,8 @@ void TP8exo3(){
     bubbleSort(tableSorted, width*height);
 
     showRow(tableSorted, width*height, 0);
+
+    free(tableSorted);
 
     for (int i = 0; i < height; i++){
         free(table[i]);
