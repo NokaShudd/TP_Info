@@ -36,7 +36,7 @@ void TP8exo2(){
     printf("Nombre de notes : ");
     scanf("%d", &size);
 
-    int *table = (int*) calloc(size, sizeof(int));
+    int *table = (int*) calloc(size, (int) 0);
 
     for (int i = 0; i < size; i++){
         printf("Quelle est la valeur de la note %d ?\n", i+1);
