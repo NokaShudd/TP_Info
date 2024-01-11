@@ -9,7 +9,7 @@ int* createTable(int* size){
     printf("Entre la taille: ");
     scanf("%d", size);
 
-    int* table = (int*) calloc(*size, sizeof(int));
+    int* table = (int*) calloc(*size, (int) 0);
 
     return table;
 }
