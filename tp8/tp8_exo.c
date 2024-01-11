@@ -23,6 +23,8 @@ void TP8exo1(){
     }
 
     printf("%d", size);
+
+    free(table);
     
 }
 
