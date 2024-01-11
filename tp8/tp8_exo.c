@@ -9,7 +9,7 @@ int* createTable(int* size){
     printf("Entre la taille: ");
     scanf("%d", size);
 
-    int* table = (int*) calloc(*size, (int) 0);
+    int* table = (int*) calloc(*size, sizeof(int));
 
     return table;
 }
@@ -36,7 +36,7 @@ void TP8exo2(){
     printf("Nombre de notes : ");
     scanf("%d", &size);
 
-    int *table = (int*) calloc(size, (int) 0);
+    int *table = (int*) calloc(size, sizeof(int));
 
     for (int i = 0; i < size; i++){
         printf("Quelle est la valeur de la note %d ?\n", i+1);
